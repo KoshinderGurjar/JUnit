@@ -1,4 +1,4 @@
-# Welcome to Lambdatest - Java TestNG Selenium 
+# Welcome to Lambdatest - Java JUnit Selenium 
 
 ## Step 1: Configure your settings and required capabilites for your test
 
