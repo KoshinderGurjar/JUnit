@@ -25,7 +25,7 @@ $ mvn test -P single
 
 #### To run parallel test
 ```
-    $ mvn test -P parallel
+$ mvn test -P parallel
 ```
 
 ## Step 3: Test Results
