@@ -41,10 +41,14 @@ public class SingleTest {
 		capability.setCapability("video", true);
 		capability.setCapability("console", true);
 		capability.setCapability("visual", "true");
-
-		String gridURL = "https://" + username + ":" + accesskey + "@hub.lambdatest.com/wd/hub";
-
-		driver = new RemoteWebDriver(new URL(gridURL), capability);
+		
+		String gridURL = "http://" + username + ":" + accesskey + "@hub.lambdatest.com/wd/hub";
+		try {
+			driver = new RemoteWebDriver(new URL(gridURL), capability);
+		} catch (Exception e) {
+			System.out.println("driver error");
+			System.out.println(e.getMessage());
+		}
 	}
 
 	@Test
