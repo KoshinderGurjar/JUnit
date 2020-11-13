@@ -13,7 +13,7 @@ public class Parallelized extends Parameterized {
 		private ExecutorService executor;
 
 		public ThreadPoolScheduler() {
-			String threads = System.getProperty("junit.parallel.threads", "1");
+			String threads = System.getProperty("junit.parallel.threads", "16");
 			int numThreads = Integer.parseInt(threads);
 			executor = Executors.newFixedThreadPool(numThreads);
 		}
