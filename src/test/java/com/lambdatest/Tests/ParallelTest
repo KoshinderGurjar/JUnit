@@ -12,6 +12,7 @@ public class ParallelTest extends TestBase {
 	public ParallelTest(String osName, String browserName, String browserVersion) {
 		super(osName, browserName, browserVersion);
 	}
+
 	@Test
 	public void testParallelTest() throws Exception {
 		try {
