@@ -23,11 +23,6 @@ We have preinstalled all the required environment for running the tests. You can
 $ mvn test -P single
 ```
 
-#### To run parallel test
-```
-$ mvn test -P parallel
-```
-
 
 ## Step 3: Test Results
 
